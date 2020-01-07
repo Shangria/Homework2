@@ -1,2 +1,2 @@
-var nameUser = prompt('введите ваше имя');
+var nameUser = prompt('Введите ваше имя');
 alert('Привет,' + ' ' + nameUser + '!');
