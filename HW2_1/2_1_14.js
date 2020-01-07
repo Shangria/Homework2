@@ -1,0 +1,1 @@
+var myVariables = [answer1, answer1, answer];
