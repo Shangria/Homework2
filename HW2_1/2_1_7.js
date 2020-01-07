@@ -1,8 +1,7 @@
 var numberUser = prompt('Введите число');
-if (numberUser === true) {
-    alert('Спасибо, вы ввели все правильно!')
-} else if (parseFloat(numberUser)) {
-    alert('Так не нужно! Внимательно вводи числа!')
+
+if (parseFloat(numberUser)) {
+    alert('Спасибо!')
 } else {
-    alert('Введите число')
+    alert('Так не нужно! Внимательно вводи числа!')
 }
