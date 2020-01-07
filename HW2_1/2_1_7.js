@@ -1,6 +1,6 @@
-var numberUser = prompt('Введите число');
+var numberUser = prompt('Введите целое число');
 
-if (parseFloat(numberUser)) {
+if (parseInt(numberUser) || parseFloat(numberUser)) {
     alert('Спасибо!')
 } else {
     alert('Так не нужно! Внимательно вводи числа!')
