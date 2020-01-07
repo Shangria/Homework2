@@ -1,5 +1,3 @@
-var s1 = prompt("a");
-var s2 = prompt("b");
-var sub = s1 / s2;
-alert(Math.floor(sub));
-
+var celsus = prompt('Будьте любезны, подскажите сегодняшнюю температуру по Цельсию');
+var farengeit = (celsus * 9 / 5) + 32;
+alert('По Фаренгейту это будет' + ' ' + farengeit);
