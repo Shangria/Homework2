@@ -1,5 +1,4 @@
 var whatTimeIsItNow;
-debugger;
 while (isNaN(whatTimeIsItNow)) {
     whatTimeIsItNow = Number(prompt('введите количество часов'))
 }
