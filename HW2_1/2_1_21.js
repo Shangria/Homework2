@@ -5,7 +5,6 @@ var size = {
     rusL: 46,
     rusXL: 50
 };
-debugger;
 var calcSize;
 var ourSize = prompt('Введите Ваш размер по американской системе. Тоесть: S,M,L,XL');
 
