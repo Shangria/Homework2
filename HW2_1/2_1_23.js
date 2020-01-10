@@ -5,9 +5,9 @@
 var storeys = prompt('кол-во этажей');
 var apartment = prompt(' номер кв.');
 var apartmentsStorey = prompt('кол-во квартир на этаже');
-var appatmrntsInPorch = storeys * apartmentsStorey;
-var porch = Math.floor(((apartment - 1) / appatmrntsInPorch) + 1);
-var porchRem = String(((apartment - 1) / appatmrntsInPorch) + 1).split(".")[1].substr(0, 1);
-var numberStore = Math.round(porchRem / apartmentsStorey + 1);
+var appatmrntsInPorch = storeys * apartmentsStorey; //кол-во квартир в подьезде
+var porch = Math.floor(((apartment - 1) / appatmrntsInPorch) + 1); //номер подьезда
+var porchRem = String(((apartment - 1) / appatmrntsInPorch) + 1).split(".")[1].substr(0, 1);//остаток от деление для вычисл
+var numberStore = Math.round(porchRem / apartmentsStorey + 1);// номер этажа
 
 alert(porch + ' ' + 'подьезд' + ' ' + numberStore + ' ' + 'этаж');
