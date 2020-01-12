@@ -23,3 +23,4 @@ if (String(floor).indexOf('.') !== -1) {
     floor = Math.ceil(floor);
 }
 alert('подъезд ' + porch + ', этаж: ' + floor);
+
